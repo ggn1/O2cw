@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Emmy made this</title>
+</head>
+<body>
+    <script>            
+            //Canvas Creation
+        var canvas = document.createElement("canvas");              
+        canv = canvas.getContext("2d");
+        canvas.height = 400;
+        canvas.width = 1000;
+        document.body.appendChild(canvas);
+     
+            //Position of Obstacle
+        var positionX = 990;         //Initial Positions                                         
+        var poitionY = 300;
+        var directionX = -2;         //Obstacle's speed & Direction                               
+        var directionY = 0;
+  
+            //Obstacle movements
+        setInterval(function () {
+        canv.fillStyle = "grey";                              //Always canvas to refresh during obstical's movements
+        canv.fillRect(0, 0, canvas.width, canvas.height);      //and avoid long visible lines
+
+        positionX += directionX;
+        poitionY += directionY;
+
+            //Obstacle Creation
+        canv.fillStyle = "gold";
+        canv.fillRect(positionX, poitionY, 11, 11);
+        }, 25)  //Number of Frames per second                                    
+
+    </script>
+</body>
+</html>
