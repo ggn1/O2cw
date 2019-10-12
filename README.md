@@ -30,7 +30,7 @@ The Team:
 Gayathri Girish Nair: Maintains this repository, Key contributor of the project.
 (Student, Heriot-Watt University)
 
-Wesley Barreto: Key contributor to the project.
+Wesley G Barreto: Key contributor to the project.
 (Student, Heriot-Watt University)
 
 Emmanuel Jumbo: Key contributor to the project.
