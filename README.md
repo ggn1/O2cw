@@ -36,7 +36,7 @@ Wesley Barreto: Key contributor to the project.
 Emmanuel Jumbo: Key contributor to the project.
 (Student, Heriot-Watt University)
 
-Harini: Key contributor to the project.
+Harini Balamurugan: Key contributor to the project.
 (Student, Heriot-Watt University)
 
 Aayushi: Key contributor to the project.
