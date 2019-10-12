@@ -33,7 +33,7 @@ Gayathri Girish Nair: Maintains this repository, Key contributor of the project.
 Wesley Barreto: Key contributor to the project.
 (Student, Heriot-Watt University)
 
-Emmanual Jumbo: Key contributor to the project.
+Emmanuel Jumbo: Key contributor to the project.
 (Student, Heriot-Watt University)
 
 Harini: Key contributor to the project.
