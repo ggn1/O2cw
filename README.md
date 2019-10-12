@@ -39,5 +39,5 @@ Emmanuel Jumbo: Key contributor to the project.
 Harini Balamurugan: Key contributor to the project.
 (Student, Heriot-Watt University)
 
-Aayushi: Key contributor to the project.
+Ayushi Amin: Key contributor to the project.
 (Student, Heriot-Watt University)
