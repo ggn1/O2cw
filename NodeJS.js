@@ -10,7 +10,7 @@ const app = express();
 // Specifying that the port number is 3000
 var portNumber = 3000;  
 
-// Tells express to serve the files from the clientSide and game directories
+// Tells express to serve files from the clientSide and game directories
 app.use(express.static('./clientSide'));
 app.use(express.static('./game'));
 
@@ -51,9 +51,14 @@ io.sockets.on('connection', function(socket){
 
     /* Listen for the 'addPlayerNameToDB' socket event and call the insertNameIntoTable() function with the username and a 
        string called recent */
-    socket.on('addPlayerNameToDB', function(data){
+    socket.on('addPlayerNameToDB', function(usernameObj){
+        // storing the username taken from the usernameObj into a variable called data
+        data = usernameObj.name
+        data = data.replace(";","");    // replace ';' with an empty string ('')
+        data = data.replace(" ","");    // replace spaces(" ") with an empty string
+        
         // The then() function specifies that the insertNameIntoTable function returns a promise value (data).
-        dbConnection.insertNameIntoTable(data.name, "recent").then(function(data){ 
+        dbConnection.insertNameIntoTable(data, "recent").then(function(data){ 
             console.log(data);
         });
     });
